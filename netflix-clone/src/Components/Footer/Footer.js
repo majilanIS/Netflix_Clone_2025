@@ -5,10 +5,12 @@ import './Footer.css'
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';
+
 const Footer = () => {
   return (
     <div className='footer-outer-container'>
       <div className='footer-inner-container'>
+        {/* Social icons */}
         <div className='footer-icons'>
           <ul>
             <li><FacebookOutlinedIcon /></li>
@@ -16,6 +18,8 @@ const Footer = () => {
             <li><YouTubeIcon /></li>
           </ul>
         </div>
+
+        {/* Link columns */}
         <div className='footer-data'>
           <div>
             <ul>
@@ -30,8 +34,8 @@ const Footer = () => {
               <li>Jobs</li>
               <li>Cookie Preferences</li>
             </ul>
-           </div>
-            <div>
+          </div>
+          <div>
             <ul>
               <li>Gift Cards</li>
               <li>Terms of Use</li>
@@ -45,11 +49,15 @@ const Footer = () => {
               <li>Contact Us</li>
             </ul>
           </div>
+        </div>
+
+        {/* Service code and copyright */}
+        <div className='footer-bottom'>
           <div className='service-code'>
-            <p>Service code</p>
+            <p>Service Code</p>
           </div>
           <div className='copy-write'>
-            &copY: 19917-2025 Netflix, Inc.
+            &copy; 1997–2025 Netflix, Inc.
           </div>
         </div>
       </div>
