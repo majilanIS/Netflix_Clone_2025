@@ -1,0 +1,38 @@
+/* 1. Import Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+RO&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* 2. Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. Define font variables in :root */
+:root {
+    --font-body: 'Open Sans', sans-serif;
+    --font-heading: 'Roboto', sans-serif;
+    --font-special: 'Playwrite RO', serif;
+}
+
+/* 4. Apply fonts */
+body {
+    font-family: var(--font-body);
+    background-color: #111;
+    color: white;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+.special-title {
+    font-family: var(--font-special);
+}
+
+/* 5. App specific class (React root element) */
+.App {
+    background-color: #111;
+}

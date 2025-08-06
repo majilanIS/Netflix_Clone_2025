@@ -1,0 +1,59 @@
+  /* Header.css */
+.header-outer-container {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    background-color: transparent;
+    transition: all 0.5s;
+    transition-timing-function: ease-in;
+    /* Netflix-like dark background */
+    /* padding: 20px 0; */
+    height: 10vh;
+    z-index: 1;
+    /* background-color: red; */
+}
+.nav_black{
+    background-color: rgb(20, 20, 20);
+}
+/* Container between left and right */
+.header-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    /* This adds a gap between left and right */
+    align-items: center;
+    padding: 0 30px;
+}
+
+/* Both ULs (left and right) */
+.header-left ul,
+.header-right ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    /* gap between individual items */
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+/* List items inside the UL */
+.header-left ul li,
+.header-right ul li {
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+/* Hover effect */
+.header-left ul li:hover,
+.header-right ul li:hover {
+    color: #e50914;
+    /* Netflix red */
+}

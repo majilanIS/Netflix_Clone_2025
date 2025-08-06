@@ -1,0 +1,111 @@
+/* 1. Import Google Font (optional, use if needed) */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); */
+
+/* 2. Outer container */
+.footer-outer-container {
+    background-color: #141414;
+    /* Netflix dark background */
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    color: #aaa;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    /* Optional: only if you're importing Roboto */
+}
+
+/* 3. Inner container */
+.footer-inner-container {
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+/* 4. Social media icons */
+.footer-icons ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-icons li {
+    cursor: pointer;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.footer-icons li:hover {
+    color: #e50914;
+    /* Netflix red on hover */
+}
+
+/* 5. Footer link sections */
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.footer-data div {
+    min-width: 150px;
+}
+
+.footer-data ul {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-data li {
+    cursor: pointer;
+    color: #aaa;
+    transition: color 0.3s ease;
+}
+
+.footer-data li:hover {
+    color: #fff;
+}
+
+/* 6. Optional: copyright */
+.footer-inner-container p {
+    color: #555;
+    font-size: 12px;
+    margin-top: 20px;
+}
+p{
+    width: 100px;
+    font-weight: 500;
+    color: #aaa;
+    border: 1px solid #aaa;
+    padding: 10px;
+}
+
+/* 7. Responsive design */
+@media (max-width: 768px) {
+    .footer-data {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer-data div {
+        width: 100%;
+        /* flex-direction: column; */
+    }
+
+    .footer-data ul {
+        gap: 10px 20px;
+    }
+}
