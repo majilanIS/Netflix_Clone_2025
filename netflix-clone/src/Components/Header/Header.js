@@ -3,6 +3,7 @@ import './Header.css'
 import NetflixLogo from '../../assets/images/Netflix_2015_logo.svg'
 
 //material icons
+// MUI (Multiple icons)->Search Material icons ->npm i {} -> after that you can use those material icons directly by importing like the other modules
 import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';

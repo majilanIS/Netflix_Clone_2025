@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 
-//icons
+//icons if already installed this npm i {} in one app you can use as you want any icon by importing imediately
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import YouTubeIcon from '@mui/icons-material/YouTube';

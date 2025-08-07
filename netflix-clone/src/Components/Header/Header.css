@@ -21,6 +21,7 @@
 }
 /* Container between left and right */
 .header-container {
+    position: sticky;
     width: 90%;
     margin: 0 auto;
     display: flex;
